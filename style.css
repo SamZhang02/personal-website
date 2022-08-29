@@ -58,9 +58,12 @@
 }
 
 .profile_picture{
-    width: 20%;
-    display: inline-block;
+    position: absolute;
+    width: 17%;
+    display: inline;
     float: right;
-    margin-right: 300px;
-    margin-bottom: 200px;
+    top: 150px;
+    right: 400px;
+}
+
 }
