@@ -8,7 +8,6 @@
     margin-top: 40px;
     margin-right: 60px;
     margin-left: 60px;
-    text-decoration: none;
 }
 
 .btn{
@@ -20,6 +19,7 @@
     border: 2px solid;
     float: right;
     margin-left: 40px;
+    text-decoration: none;
 }
 
 .btn:hover{
