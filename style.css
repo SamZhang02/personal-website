@@ -66,4 +66,15 @@
     right: 400px;
 }
 
+.projects{
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.projects > .title{
+    font-size: 30px;
+}
+
+.projects > .subtitle{
+    font-size: 20px;
 }
