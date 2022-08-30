@@ -5,7 +5,6 @@
 
 .top-bar{
     display: flex;
-    margin-bottom: 175px;
     margin-top: 40px;
     margin-right: 60px;
     margin-left: 60px;
@@ -35,22 +34,29 @@
     margin-right:auto;
     text-decoration: none;
     transition-duration: 0.3s;
+    margin-top: 10px;
 }
 
 .logo:hover{
     color: #b8d8be
 }
 
-
+.first{
+    display: flex;
+    column-gap: 200px;
+    height: 675px;
+}
 .heading{
     font-weight: normal;
     font-size: 50px;
     margin-left: 350px;
+    margin-top: 175px;
+    display: flex;
+    flex-direction: column;
 }
 
 .heading p{
-    display: inline-block;
-    margin: 0px;
+    margin: 5px;
 }
 .name{
     color: #b8d8be;
@@ -62,8 +68,6 @@
 }
 
 .projects{
-    margin-top: 250px;
-    margin-left: 150px;
 }
 
 .projects .title{
