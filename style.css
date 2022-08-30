@@ -4,6 +4,7 @@
 }
 
 .top-bar{
+    display: flex;
     margin-bottom: 175px;
     margin-top: 40px;
     margin-right: 60px;
@@ -32,8 +33,6 @@
 
 .logo{
     margin-right:auto;
-    position: absolute;
-    top: 47px;
     text-decoration: none;
     transition-duration: 0.3s;
 }
