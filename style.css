@@ -73,10 +73,10 @@
     margin-left: 150px;
 }
 
-.projects > .title{
+.projects .title{
     font-size: 30px;
 }
 
-.projects > .subtitle{
+.projects .subtitle{
     font-size: 20px;
 }
