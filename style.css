@@ -11,15 +11,19 @@
     height: 40px;
 }
 
+.btns{
+    display: flex;
+    column-gap: 40px;
+}
 .btn{
-    display: inline-block;
+    /* display: inline-block; */
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
     border: 2px solid;
     float: right;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     text-decoration: none;
     transition-duration: 0.3s;
 }
