@@ -59,6 +59,7 @@
     color: gray;
 }
 
+<<<<<<< HEAD
 .profile_picture{
     position: absolute;
     width: 17%;
@@ -73,6 +74,8 @@
 .profile_picture:hover{
     width: 18%
 }
+=======
+>>>>>>> bb945ba72b0856b53cec231a6aacb6e199b7edb8
 .projects{
     margin-top: 250px;
     margin-left: 150px;
