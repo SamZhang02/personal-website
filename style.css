@@ -47,6 +47,7 @@
     height: 675px;
 }
 .heading{
+    flex:initial;
     font-weight: normal;
     font-size: 50px;
     margin-left: 350px;
@@ -79,6 +80,7 @@
 }
 
 .headshot{
+    flex: initial;
     width:15%;
     align-self: flex-end;
     margin-bottom: 250px;
