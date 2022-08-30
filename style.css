@@ -77,3 +77,16 @@
 .projects .subtitle{
     font-size: 20px;
 }
+
+.headshot{
+    width:15%;
+    align-self: flex-end;
+    margin-bottom: 250px;
+    transition-duration: 0.3s;
+}
+
+.headshot:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
