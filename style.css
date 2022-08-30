@@ -59,21 +59,6 @@
     color: gray;
 }
 
-.profile_picture{
-    position: absolute;
-    width: 17%;
-    display: inline;
-    float: right;
-    top: 150px;
-    right: 400px;
-    flex-shrink: 0;
-    transition-duration:0.5s;
-}
-
-.profile_picture:hover{
-    width: 18%
-}
-
 .projects{
     margin-top: 250px;
     margin-left: 150px;
