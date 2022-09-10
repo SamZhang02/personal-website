@@ -93,31 +93,32 @@
     color: gray;
 }
 
-.projects{
+.second{
+    display: flex;
+    flex-direction: column;
 }
 
-.projects .title{
+.title{
     font-size: 30px;
+    margin-left: 20px;
 }
 
-.projects .subtitle{
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content .subtitle{
     font-size: 20px;
 }
 
-.headshot{
-    flex: none;
-    width:15%;
-    align-self: flex-end;
-    margin-bottom: 250px;
-    transition-duration: 0.3s;
+.project{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 
-.headshot:hover{
-    transform: scale(1.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
-}
-
-.top-bar .empty{
-    flex: auto;
+.project img{
+    height: 200px;
 }
