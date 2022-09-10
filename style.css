@@ -84,6 +84,7 @@
 .heading p{
     margin: 5px;
 }
+
 .name{
     color: #b8d8be;
 }
@@ -91,6 +92,25 @@
 .subtext{
     font-size: 20px;
     color: gray;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 10px;
+    align-items: center;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.logos .github{
+    height: 30px;
+}
+
+.logos .linkedin{
+    margin-top: 15px;
+    height: 32px;
 }
 
 .second{
