@@ -46,14 +46,32 @@
 
 .first{
     display: flex;
-    column-gap: 200px;
+    flex-direction: row;
+    column-gap: 100px;
     height: 675px;
+    justify-content: center;
+    margin-right: 100px;
 }
+
+.photo{
+    display: flex;
+}
+
+.headshot{
+    margin-top: 75px;
+    margin-bottom: 250px;
+    transition-duration: 0.3s;
+}
+
+.headshot:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .heading{
     flex:none;
     font-weight: normal;
     font-size: 50px;
-    margin-left: 350px;
     margin-top: 175px;
     display: flex;
     flex-direction: column;
