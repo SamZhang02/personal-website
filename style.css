@@ -12,6 +12,10 @@
     gap:16px;
 }
 
+.top-bar .empty{
+    flex: auto;
+}
+
 .btns{
     display: flex;
     column-gap: 40px;
