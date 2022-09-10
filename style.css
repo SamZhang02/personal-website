@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 .top-bar{
     display: flex;
     margin-top: 40px;
@@ -10,6 +15,7 @@
     margin-left: 60px;
     height: 40px;
     gap:16px;
+    justify-content: space-between;
 }
 
 .top-bar .empty{
@@ -49,20 +55,20 @@
 }
 
 .first{
+    flex: auto;
     display: flex;
     flex-direction: row;
     column-gap: 100px;
     height: 675px;
     justify-content: center;
+    margin-left: 350px;
     margin-right: 100px;
 }
 
-.photo{
-    display: flex;
-}
-
 .headshot{
-    margin-top: 75px;
+    flex:initial;
+    height: 350px;
+    margin-top: 100px;
     margin-bottom: 250px;
     transition-duration: 0.3s;
 }
@@ -73,7 +79,7 @@
 }
 
 .heading{
-    flex:none;
+    flex:auto;
     font-weight: normal;
     font-size: 50px;
     margin-top: 175px;
@@ -124,9 +130,11 @@
 }
 
 .content{
+    flex: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .content .subtitle{
     font-size: 20px;
