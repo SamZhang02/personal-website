@@ -15,7 +15,7 @@ body{
     margin-left: 60px;
     height: 40px;
     gap:16px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .top-bar .empty{
@@ -48,6 +48,7 @@ body{
     text-decoration: none;
     transition-duration: 0.3s;
     margin-top: 10px;
+    flex: none;
 }
 
 .logo:hover{
