@@ -1,8 +1,11 @@
 *{
-    color: #242526;
+    color: #4C594E;
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
 body{
     display: flex;
     flex-direction: column;
