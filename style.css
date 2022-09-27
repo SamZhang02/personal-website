@@ -207,3 +207,20 @@ body{
 .connect .contact-info a:hover{
     color: #b8d8be
 }
+
+.resume-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    grid-row-gap: 10px;
+}
+.resume-pdf{
+    display: flex;
+    justify-content: center;
+}
+.resume-pdf > iframe{
+    width: 700px;
+    height: 1000px
+}
