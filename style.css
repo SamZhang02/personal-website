@@ -154,18 +154,30 @@ body{
     height: 200px;
 }
 
+.contact-page .first{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    column-gap: 0px;
+}
+.contact-page .first .empty{
+    flex: auto;
+    width: 400px;
+}
 .connect{
-    margin-top: 150px;
-    margin-left: 100px;
     display: flex;
     flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    column-gap: 100px
 }
 
 .connect .title{
     font-size: 50px;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 .connect .greenify{
@@ -175,17 +187,19 @@ body{
 .connect .subtitle{
     color: #829986;
     font-size: 20px;
-    margin-left: 50px;
     margin-bottom: 20px;
+    display: flex;
 }
-
 .connect .contact-info{
+    flex: initial;
     font-size: 20px;
-    margin-left: 50px;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .connect .contact-info a{
+    flex: auto;
     transition-duration: 0.3s
 }
 
