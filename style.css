@@ -153,3 +153,43 @@ body{
 .project img{
     height: 200px;
 }
+
+.connect{
+    margin-top: 150px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.connect .title{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.connect .greenify{
+    color: #b8d8be
+}
+
+.connect .subtitle{
+    color: #829986;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.connect .contact-info{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.connect .contact-info a{
+    transition-duration: 0.3s
+}
+
+
+.connect .contact-info a:hover{
+    color: #b8d8be
+}
