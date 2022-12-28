@@ -4,7 +4,7 @@ let width = document.body.clientWidth;
 
 function resize(){
     width = document.body.clientWidth;
-    if (width <= 697){
+    if (width <= 846){
         for (i=0; i < titles.length; i++){
             if (titles[i].tagName === 'P'){ 
                 titles[i].style.textAlign = 'center';
